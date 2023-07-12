@@ -1,6 +1,18 @@
 import { getCurrentDate } from "../utils/currentDate";
 
-const Current = ({ data }) => {
+interface WeatherProp {
+  current: {
+    condition: {
+      icon: string;
+      
+    };
+    temp_c: number;
+    
+  };
+ 
+}
+
+const Current = ({ data }: { data: WeatherProp }) => {
     const currentDate = getCurrentDate();
     const weatherIcon = data.current.condition.icon;
     return (
