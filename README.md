@@ -8,7 +8,7 @@ Chrome Users May follow the Following:
 
 <img width="502" alt="Screen Shot 2023-07-13 at 12 41 19 AM" src="https://github.com/Massive-E/weatherApp/assets/65703404/8534a4b5-17ef-4689-9fff-dcffa520c5dd">
 
-## Allow insecure content for the website
+## Allow insecure content for the website and then reload the site.
 
 <img width="1022" alt="Screen Shot 2023-07-13 at 12 37 19 AM" src="https://github.com/Massive-E/weatherApp/assets/65703404/790602d3-6dea-4cf8-9337-00a84631ba46">
 
@@ -18,7 +18,7 @@ Chrome Users May follow the Following:
 
 <img width="615" alt="Screen Shot 2023-07-13 at 12 38 14 AM" src="https://github.com/Massive-E/weatherApp/assets/65703404/f62fecb8-8b97-4c47-9f0d-5a00f05cdd8f">
 
-## Then disable protection for now.
+## Then disable protection for now and then reload the site.
 
 <img width="608" alt="Screen Shot 2023-07-13 at 12 38 30 AM" src="https://github.com/Massive-E/weatherApp/assets/65703404/29d67de3-be67-4675-be80-740a03e92298">
 
