@@ -4,7 +4,7 @@ interface WeatherProp {
   current: {
     condition: {
       icon: string;
-      
+       text: string;
     };
     temp_c: number;
     
