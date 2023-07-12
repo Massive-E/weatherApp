@@ -12,6 +12,7 @@ interface DayForecast{
   }
 }
 interface WeekForecastProps{
+
   data: {
     forecast?: {
       forecastday: DayForecast[];
@@ -21,6 +22,9 @@ interface WeekForecastProps{
 
 }
 const WeekForecast = ({ data } : WeekForecastProps) => {
+if (!data.forecast) {
+    return null; // or a fallback UI if desired when 'data.forecast' is undefined
+  }
   return (
     <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 '>
       {data.forecast.forecastday.map( (day, index) =>
