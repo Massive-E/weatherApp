@@ -16,8 +16,8 @@ const Home = () => {
   const [error, setError] = useState("");
 
   // I tried hiding my api key in the .env file however it did not seem to work at that point. 
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=ac7f8568561e49058b0122906231107&q=${location}&days=5&aqi=yes&alerts=yes`;
-  const defaultUrl = `http://api.weatherapi.com/v1/forecast.json?key=ac7f8568561e49058b0122906231107&q=London&days=5&aqi=yes&alerts=yes`;
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=ac7f8568561e49058b0122906231107&q=${location}&days=5&aqi=yes&alerts=yes`;
+  const defaultUrl = `https://api.weatherapi.com/v1/forecast.json?key=ac7f8568561e49058b0122906231107&q=London&days=5&aqi=yes&alerts=yes`;
 
   const searchHandle = async (
     e: React.KeyboardEvent<HTMLInputElement>
