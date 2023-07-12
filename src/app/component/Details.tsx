@@ -1,4 +1,5 @@
-const Details = ({ data}) => {
+
+const Details = ({ data}: { data: any }) => {
   return (
     <div className="pt-2 text-base ">
      
