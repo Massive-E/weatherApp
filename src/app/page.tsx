@@ -11,7 +11,7 @@ import AirQualityGraph from "./component/AirQualityGraph";
 
 
 const Home = () => {
-  const [data, setData] = useState({});
+  const [data, setData] = useState<any>({});
   const [location, setLocation] = useState("");
   const [error, setError] = useState("");
 
