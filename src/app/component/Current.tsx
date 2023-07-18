@@ -1,4 +1,4 @@
-import { getCurrentDate } from "../utils/CurrentDate";
+import { getCurrentDate } from "../utils/currentDate";
 
 interface WeatherProp {
   current: {
