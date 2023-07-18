@@ -22,8 +22,8 @@ const Home = () => {
 
   
   // console.log(process.env.NEXT_PUBLIC_API_KEY)
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=${process.env.NEXT_PUBLIC_API_KEY as string}&q=${location}&days=5&aqi=yes&alerts=yes`;
-  const defaultUrl = `http://api.weatherapi.com/v1/forecast.json?key=${process.env.NEXT_PUBLIC_API_KEY as string}&q=London&days=5&aqi=yes&alerts=yes`;
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=${process.env.NEXT_PUBLIC_API_KEY as string}&q=${location}&days=5&aqi=yes&alerts=yes`;
+  const defaultUrl = `https://api.weatherapi.com/v1/forecast.json?key=${process.env.NEXT_PUBLIC_API_KEY as string}&q=London&days=5&aqi=yes&alerts=yes`;
 
   
   const searchHandle = async (
